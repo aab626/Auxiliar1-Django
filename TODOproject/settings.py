@@ -1,3 +1,5 @@
+import todoapp
+
 """
 Django settings for todoapp project.
 
@@ -42,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'categorias',
+
+    'todoapp',
 ]
 
 MIDDLEWARE = [
